@@ -1,6 +1,6 @@
 # License Information
 
-## /lib, /rsasync-rails.gemspec, /Gemfile, /LICENSE.md, /README.md
+## !/vendor, /vendor/assets/javascripts/rsasync-rails.js
 
     GiMiScale wrote this. As long as you retain this notice you can
     do whatever you want with this stuff. If we meet some day, and
