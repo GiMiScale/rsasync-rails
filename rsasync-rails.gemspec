@@ -24,7 +24,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = []
   gem.name          = 'rsasync-rails'
   gem.require_paths = ['lib']
-  gem.version       = ::RSAsync:Rails::VERSION
+  gem.version       = ::RSAsync::Rails::VERSION
 
   gem.add_dependency 'railties', '>= 3.0'
   gem.add_development_dependency 'bundler', '>= 1.0'
