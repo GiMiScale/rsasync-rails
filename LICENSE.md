@@ -2,20 +2,33 @@
 
 ## !/vendor, /vendor/assets/javascripts/*-rails.(js|coffee)
 
-    GiMiScale wrote this. As long as you retain this notice you can
-    do whatever you want with this stuff. If we meet some day, and
-    you think this stuff is worth it, you can buy us a beer in
-    return.
+    #!rst
+    Copyright 2013 GiMiScale B.V.
+    
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+    
+        http://www.apache.org/licenses/LICENSE-2.0
+    
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an "AS
+    IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
+    express or implied.
+    See the License for the specific language governing permissions
+    and limitations under the License.
 
 
 ## /vendor/assets/javascripts/rsasync.js
 
+    #!rst
     Copyright (c) 2011  Kevin M Burns Jr.
     All Rights Reserved.
 
 
 ## /vendor/assets/javascripts/*
    
+    #!rst
     Copyright (c) 2003-2005  Tom Wu
     All Rights Reserved.
     
