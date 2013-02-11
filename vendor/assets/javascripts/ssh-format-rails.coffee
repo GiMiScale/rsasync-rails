@@ -128,3 +128,12 @@ generatePrivateKeyBlock = (rsa) ->
   footer = "\n-----END RSA PRIVATE KEY-----"
 
   return header + doc.toString() + footer
+
+
+# export public functions
+
+window.generatePublicKey = (rsa) ->
+  generatePublicKey rsa
+
+window.generatePrivateKeyBlock = (rsa) ->
+  generatePrivateKeyBlock rsa

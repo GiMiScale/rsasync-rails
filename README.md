@@ -10,7 +10,7 @@ asynchronous rsa key generation - extends
   * Include `rsasync-rails` in the `Gemfile`:
 
         #!ruby
-        gem 'rsasync-rails', '13.2.11', git: 'https://bitbucket.org/gimiscale/rsasync-rails.git'
+        gem 'rsasync-rails', '13.2.11.1', git: 'https://bitbucket.org/gimiscale/rsasync-rails.git'
 
   * Add to `app/assets/javascripts/applications.js`:
 
