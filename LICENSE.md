@@ -1,6 +1,6 @@
 # License Information
 
-## !/vendor, /vendor/assets/javascripts/*-rails.js
+## !/vendor, /vendor/assets/javascripts/*-rails.(js|coffee)
 
     GiMiScale wrote this. As long as you retain this notice you can
     do whatever you want with this stuff. If we meet some day, and

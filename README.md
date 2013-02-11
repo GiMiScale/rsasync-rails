@@ -10,12 +10,15 @@ asynchronous rsa key generation - extends
   * Include `rsasync-rails` in the `Gemfile`:
 
         #!ruby
-        gem 'rsasync-rails', '13.2.7.1', git: 'https://bitbucket.org/gimiscale/rsasync-rails.git'
+        gem 'rsasync-rails', '13.2.11', git: 'https://bitbucket.org/gimiscale/rsasync-rails.git'
 
   * Add to `app/assets/javascripts/applications.js`:
 
         #!javascript
+        // RSA keygen, encoding, decoding, etc...
         //= require rsasync-rails
+        // RSA (public/private) key formatting for SSH
+        //= require ssh-format-rails
 
     Optional:
 
@@ -37,10 +40,11 @@ asynchronous rsa key generation - extends
         #!javascript
         key = new RSAKey();
         key.generateAsync(512, "03", function(){
-            var pubKey = hex2b64(key.n.toString(16));
+            var pubKey = generatePublicKey(key);
+            var priKey = generatePrivateKeyBlock(key);
             alert(pubKey);
+            alert(priKey);
         });
-
 
 ## License
 

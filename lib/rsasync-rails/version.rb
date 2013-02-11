@@ -1,5 +1,5 @@
 module RSAsync
   module Rails
-    VERSION = '13.2.7.1'
+    VERSION = '13.2.11'
   end
 end
