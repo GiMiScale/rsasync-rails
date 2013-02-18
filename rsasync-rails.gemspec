@@ -20,6 +20,9 @@ Gem::Specification.new do |gem|
   gem.files        << 'vendor/assets/javascripts/prng4.js'
   gem.files        << 'vendor/assets/javascripts/base64.js'
   gem.files        << 'vendor/assets/javascripts/rsasync.js'
+  gem.files        << 'vendor/assets/javascripts/jsbn-rails.js'
+  gem.files        << 'vendor/assets/javascripts/jsbn-ecc-rails.js'
+  gem.files        << 'vendor/assets/javascripts/jsbn-sha1-rails.js'
   gem.files        << 'vendor/assets/javascripts/rsasync-rails.js'
   gem.files        << 'vendor/assets/javascripts/ssh-format-rails.coffee'
   gem.test_files    = []
